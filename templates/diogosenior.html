@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatório Diogo Senior</title>
-</head>
-
-<body>
-    <center>
-        <iframe width="1200" height="900"
-            src="https://datastudio.google.com/embed/reporting/71c4543d-6af5-4fb1-9394-3ba105a2cc79/page/Ac83C"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
-    </center>
-</body>
-
-</html>
+{% extends 'layout.html'%}
+{% block title %} Diogo Senior - Relatórios{% endblock %}
+{% block main %}
+<center>
+    <iframe width="1200" height="900"
+        src="https://datastudio.google.com/embed/reporting/71c4543d-6af5-4fb1-9394-3ba105a2cc79/page/Ac83C"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+</center>
+{% endblock %}

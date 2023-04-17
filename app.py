@@ -5,12 +5,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index-em-construcao.html")
+    return render_template("index.html")
 
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
-
 
 @app.route("/resume")
 def resume():
@@ -45,8 +44,3 @@ def hellenmonarcha():
 @app.route("/eu")
 def emory():
     return render_template("emorycardozo.html")
-
-
-@app.route("/investy")
-def investy():
-    return render_template("investy.html")
