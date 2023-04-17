@@ -44,3 +44,8 @@ def hellenmonarcha():
 @app.route("/eu")
 def emory():
     return render_template("emorycardozo.html")
+
+
+@app.route("/linktree")
+def linktree():
+    return render_template("linktree.html")
