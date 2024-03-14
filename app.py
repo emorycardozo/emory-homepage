@@ -49,3 +49,8 @@ def emory():
 @app.route("/linktree")
 def linktree():
     return render_template("linktree.html")
+
+
+@app.route("/agenda")
+def agenda():
+    return render_template("agenda.html")

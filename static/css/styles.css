@@ -12852,3 +12852,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .numeros {
   padding-bottom: 3rem;
 }
+
+.agenda {
+  text-align: center;
+}
